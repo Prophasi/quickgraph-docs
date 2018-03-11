@@ -3,17 +3,17 @@
 This **single source shorteset path** can be expressed as follows: given a weighted directed graph, find the minimum path between a vertex {{u}} and  any other vertex {{v}}. 
 
 Depending on the properties of the weights and the graph, different algorithms can be applied:
-* positive weights, graph is a [Directed Acyclic Graph](http://en.wikipedia.org/wiki/Directed_acyclic_graph): [DagShortestPathAlgorithm](DagShortestPathAlgorithm),
-* positive weights: [DijsktraShortestPathAlgorithm](DijsktraShortestPathAlgorithm),
-* positive weights, with heuristics: [AStartShortestPathAlgorithm](AStartShortestPathAlgorithm),
-* positive or negative weights:  [BellmanFordShortestPathAlgorithm](BellmanFordShortestPathAlgorithm)
+* positive weights, graph is a [Directed Acyclic Graph](http://en.wikipedia.org/wiki/Directed_acyclic_graph.md): [DagShortestPathAlgorithm](DagShortestPathAlgorithm.md),
+* positive weights: [DijsktraShortestPathAlgorithm](DijsktraShortestPathAlgorithm.md),
+* positive weights, with heuristics: [AStartShortestPathAlgorithm](AStartShortestPathAlgorithm.md),
+* positive or negative weights:  [BellmanFordShortestPathAlgorithm](BellmanFordShortestPathAlgorithm.md)
 
 ##### Quick example
 
-The [AlgorithmExtensions](AlgorithmExtensions) contains extension methods to compute the shortest path without the ugly details.
+The [AlgorithmExtensions](AlgorithmExtensions.md) contains extension methods to compute the shortest path without the ugly details.
 
 {{
-[C#](C#)
+[C#](C#.md)
 IVertexAndEdgeListGraph<int, Edge<int>> cities = ...; // a graph of cities
 Func<Edge<int>, double> cityDistances = ...; // a delegate that gives the distance between cities
 

@@ -23,8 +23,8 @@ As you may notice, the same codebase is used for .net 2.0 and .net 3.5. This mea
 
 #### External tools
 
-* Code Contracts [http://research.microsoft.com/contracts](http://research.microsoft.com/contracts) (optional)
-* Pex [http://research.microsoft.com/Pex/downloads.aspx](http://research.microsoft.com/Pex/downloads.aspx) (required)
+* Code Contracts [http://research.microsoft.com/contracts](http://research.microsoft.com/contracts.md) (optional)
+* Pex [http://research.microsoft.com/Pex/downloads.aspx](http://research.microsoft.com/Pex/downloads.aspx.md) (required)
 
 #### Getting the source code
 

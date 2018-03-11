@@ -1,6 +1,6 @@
 #### Observers Concepts
 
-Algorithms do not serialize any interesting data. They publish a set of standard events that an observer can listen to gather the data (algorithms and observers in QuickGraph implement the [Observer Pattern](Observer-Pattern)). For example, one can attach an observer that records the vertex predecessors to algorithms that compute the shortest path.
+Algorithms do not serialize any interesting data. They publish a set of standard events that an observer can listen to gather the data (algorithms and observers in QuickGraph implement the [Observer Pattern](Observer-Pattern.md)). For example, one can attach an observer that records the vertex predecessors to algorithms that compute the shortest path.
 
 * {{VertexPredecessorRecorderObserver}}, creates a dictionary that links vertices to their parent edge,
 * {{EdgePredecessorRecorderObserver}}, create a dictionary that links vertices to their parent edge,

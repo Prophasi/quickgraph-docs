@@ -1,6 +1,6 @@
 #### Visualization Using Graphviz
 
-QuickGraph supports generating _dot files_, the file format of [Graphviz](Graphviz). All Graphviz related code are located in the {{QuickGraph.Graphviz.dll}} assembly.
+QuickGraph supports generating _dot files_, the file format of [Graphviz](Graphviz.md). All Graphviz related code are located in the {{QuickGraph.Graphviz.dll}} assembly.
 
 ##### Basic graph rendering
 

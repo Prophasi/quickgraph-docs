@@ -1,6 +1,6 @@
 ### BidirectionalMatrixGraph
 
-The {{BidirectionalMatrixGraph<TVertex, TEdge>}} provides an efficient data structure to access the out edges and the in edges of a vertex of dense directed graphs with known number of vertices. This class is mutable, serializable, cloneable and [can be constructed in many different ways](Creating-Graphs). Internally, the data structure keeps a 2D fixed size array of edges. Does not support [multi-edges](Multi-Edge).
+The {{BidirectionalMatrixGraph<TVertex, TEdge>}} provides an efficient data structure to access the out edges and the in edges of a vertex of dense directed graphs with known number of vertices. This class is mutable, serializable, cloneable and [can be constructed in many different ways](Creating-Graphs.md). Internally, the data structure keeps a 2D fixed size array of edges. Does not support [multi-edges](Multi-Edge.md).
 
 {{
 int vertexCount = ...; // must be known a-priori
@@ -11,5 +11,5 @@ foreach(var vertex in graph.Vertices)
         Console.WriteLine(edge);
 }}
 
-For sparse graphs, consider using [AdjacencyGraph](AdjacencyGraph) or [BidirectionalGraph](BidirectionalGraph).
+For sparse graphs, consider using [AdjacencyGraph](AdjacencyGraph.md) or [BidirectionalGraph](BidirectionalGraph.md).
 

@@ -1,6 +1,6 @@
 #### Maximum Flow
 
-The [Edmond and Karp](http://en.wikipedia.org/wiki/Edmonds-Karp_algorithm) algorithm computes a maximum flow for directed graph with positive capacities and flows. 
+The [Edmond and Karp](http://en.wikipedia.org/wiki/Edmonds-Karp_algorithm.md) algorithm computes a maximum flow for directed graph with positive capacities and flows. 
 
 {{
 // we need a graph, a source and a sink

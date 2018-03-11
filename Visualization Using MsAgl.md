@@ -2,7 +2,7 @@
 
 #### Visualization Using MsAgl
 
-QuickGraph supports [MsAgl](MsAgl) to render the graphs. The {{QuickGraph.MsAgl}} assembly contains specialize 'populator' that convert a QuickGraph graph into a MsAgl graph.
+QuickGraph supports [MsAgl](MsAgl.md) to render the graphs. The {{QuickGraph.MsAgl}} assembly contains specialize 'populator' that convert a QuickGraph graph into a MsAgl graph.
 
 {{
 IVertexAndEdgeListGraph<string, Edge<string>> g = ...;

@@ -30,7 +30,7 @@ Func<TEdge, double> edgeCost = e => 1; // constant cost
 var dijkstra = new DijkstraShortestPathAlgorithm<TEdge, TEdge>(graph, edgeCost);
 }}
 #### Using a predecessor recorder to build the shortest path tree
-Algorithms raise a number of events that [observes](Observer-Concepts) can leverage to build solutions. For example, attaching a predecessor recorder
+Algorithms raise a number of events that [observes](Observer-Concepts.md) can leverage to build solutions. For example, attaching a predecessor recorder
 to the Dijkstra algorithm will let us build a predecessor tree. This tree is later used to build shortest paths.
 {{
 // Attach a Vertex Predecessor Recorder Observer to give us the paths
@@ -46,7 +46,7 @@ foreach (var v in graph.Vertices) {
     TVertex vertex = v;
     TEdge predecessor;
      while (predecessors.VertexPredecessors.TryGetValue(vertex, out predecessor)) {
-          distance += edgeCost[predecessor](predecessor);
+          distance += edgeCost[predecessor](predecessor.md);
           vertex = predecessor.Source;
      }
      Console.WriteLine("A -> {0}: {1}", v, distance);

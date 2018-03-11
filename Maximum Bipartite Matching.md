@@ -1,7 +1,7 @@
 #### Maximum Bipartite Matching
 
-The [Maximum Bipartite Matching Algorithm](http://en.wikipedia.org/wiki/Matching_(graph_theory)#Maximum_matchings_in_bipartite_graphs) problem arises in many real world situations.  
-It is currently implemented by [transforming the input graph](http://en.wikipedia.org/wiki/Maximum_flow_problem#Maximum_cardinality_bipartite_matching) to a maximum flow graph, and then using the MaximumFlowEdmondsKarp algorithm
+The [Maximum Bipartite Matching Algorithm](http://en.wikipedia.org/wiki/Matching_(graph_theory.md)#Maximum_matchings_in_bipartite_graphs) problem arises in many real world situations.  
+It is currently implemented by [transforming the input graph](http://en.wikipedia.org/wiki/Maximum_flow_problem#Maximum_cardinality_bipartite_matching.md) to a maximum flow graph, and then using the MaximumFlowEdmondsKarp algorithm
 
 {{
 // we need a graph and two sets of vertices

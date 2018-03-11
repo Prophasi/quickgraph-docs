@@ -4,9 +4,9 @@ It is useful to have in mind some ‘classic’ graphic theory problems. Those a
 
 The interested reader is encouraged to get back to his favorite graph theory book to get a more formal definition of each of those problems.
 
-* [Topological Sort](Topological-Sort)
-* [Strongly Connected Components](Strongly-Connected-Components)
-* [Shortest Path](Shortest-Path)
-* [Ranked Shortest Path](Ranked-Shortest-Path)
-* [Maximum Flow](Maximum-Flow)
-* [Minimum Spanning Tree](Minimum-Spanning-Tree)
+* [Topological Sort](Topological-Sort.md)
+* [Strongly Connected Components](Strongly-Connected-Components.md)
+* [Shortest Path](Shortest-Path.md)
+* [Ranked Shortest Path](Ranked-Shortest-Path.md)
+* [Maximum Flow](Maximum-Flow.md)
+* [Minimum Spanning Tree](Minimum-Spanning-Tree.md)

@@ -1,6 +1,6 @@
 #### GraphML Serialization
 
-[GraphML](http://graphml.graphdrawing.org/) is a comprehensive and easy-to-use file format for graphs. QuickGraph supports loading and saving directed graphs to this format. The GraphML serialization APIs are exposed through the {{GraphMLExtensions}} extension methods (in {{QuickGraph.Serialization}}.
+[GraphML](http://graphml.graphdrawing.org/.md) is a comprehensive and easy-to-use file format for graphs. QuickGraph supports loading and saving directed graphs to this format. The GraphML serialization APIs are exposed through the {{GraphMLExtensions}} extension methods (in {{QuickGraph.Serialization}}.
 
 The serialization code uses dynamic code generation to provide high performance in reading and writing custom properties.
 
@@ -32,7 +32,7 @@ The serializer supports the {{XmlAttributeAttribute}} attribute on public proper
 {{
 class IntEdge : Edge<int> {
    ...
-   [XmlAttribute("name")](XmlAttribute(_name_))
+   [XmlAttribute("name")](XmlAttribute(_name_.md))
    public string Name {get;set;}
 }
 }}
@@ -40,7 +40,7 @@ class IntEdge : Edge<int> {
 Default values can also be specified for the properties by using the {{DefaultValueAttribute}} attribute:
 {{
    ...
-   [XmlAttribute("name")](XmlAttribute(_name_))
-   [DefaultValue("unknown")](DefaultValue(_unknown_))
+   [XmlAttribute("name")](XmlAttribute(_name_.md))
+   [DefaultValue("unknown")](DefaultValue(_unknown_.md))
    public string Name {get;set;}
 }}

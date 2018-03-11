@@ -1,6 +1,6 @@
 #### Visualization Using GLEE
 
-QuickGraph supports [Glee](Glee) to render the graphs. The {{QuickGraph.Glee}} assembly contains specialize 'populator' that convert a QuickGraph graph into a Glee graph.
+QuickGraph supports [Glee](Glee.md) to render the graphs. The {{QuickGraph.Glee}} assembly contains specialize 'populator' that convert a QuickGraph graph into a Glee graph.
 
 {{
 IVertexAndEdgeListGraph<string, Edge<string>> g = ...;

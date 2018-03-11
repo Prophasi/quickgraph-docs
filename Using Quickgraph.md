@@ -12,4 +12,4 @@ class FooEdge : Edge<FooVertex> []() // custom edge type
 class FooGraph : AdjacencyGraph<FooVertex, FooEdge> {} // custom graph type
 }}
 #### That's it!
-* You can learn more about [creating graphs](Create-Graphs), [walking graphs](Walking-Graphs) or [mutating graphs](Mutate-Graphs).
+* You can learn more about [creating graphs](Create-Graphs.md), [walking graphs](Walking-Graphs.md) or [mutating graphs](Mutate-Graphs.md).

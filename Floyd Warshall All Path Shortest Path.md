@@ -1,6 +1,6 @@
 #### Floyd Warshall All Path Shortest Path
 
-The [Floyd Warshall All Path Shortest Path](http://en.wikipedia.org/wiki/Floyd-Warshall_algorithm) finds all the shortest path in a weighted, directed path. It can also be used to detect negative cycles.
+The [Floyd Warshall All Path Shortest Path](http://en.wikipedia.org/wiki/Floyd-Warshall_algorithm.md) finds all the shortest path in a weighted, directed path. It can also be used to detect negative cycles.
 
 {{
 var g = ... ; // some graph of TVertex, TEdge

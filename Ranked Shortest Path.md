@@ -1,8 +1,8 @@
 #### Ranked Shortest Path Algorithm
 
-This is a variation of the [Shortest Path](Shortest-Path) algorithm where not only the first one, but k-th shortest paths are returned
+This is a variation of the [Shortest Path](Shortest-Path.md) algorithm where not only the first one, but k-th shortest paths are returned
 
-The [Hoffman-Pavlet](http://portal.acm.org/citation.cfm?doid=320998.321004) algorithm provides an implementation this problem for directed weight graph with positive weights.
+The [Hoffman-Pavlet](http://portal.acm.org/citation.cfm?doid=320998.321004.md) algorithm provides an implementation this problem for directed weight graph with positive weights.
 
 {{
 IBidirectionalGraph<TVertex, TEdge> g = ...;
